@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: #555B6E;
+}
+
+.siteLogo {
+  color: #fff;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 3em;
+  text-decoration: none;
+  display: block;
+  height: 100px;
+}
+
+body,
+input,
+button {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.login,
+.dashboard,
+.user-area {
+  background: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5em;
+}
+
+.login h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login form {
+  margin-top: 15px;
+}
+
+.login form label {
+  display: block;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.login form label input {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.btn {
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #f05a5b;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #b34d4d;
+  transition: all ease-in 200ms;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5em;
+}
+
+.dashboard h1,
+.user-area h1,
+.addItem h3 {
+  margin-bottom: 20px;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.items-container .item {
+  max-width: 200px;
+  height: 150px;
+  background: rgb(181, 189, 204);
+  box-shadow: 8px -2px 13px -8px rgba(85, 91, 110, .36);
+  border-radius: 5px;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.user-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.addItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addItem h3 {
+  margin-top: 20px;
+}
+
+.addItem form label {
+  margin: 5px;
+}
+
+.addItem .btn {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
